@@ -9,14 +9,11 @@ body {
   }
   
   a {
-    color: #149ddd;
+    color: #0d0e0f;
     text-decoration: none;
   }
   
-  a:hover {
-    color: #37b3ed;
-    text-decoration: none;
-  }
+
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
@@ -36,8 +33,8 @@ body {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-
-    background-image: linear-gradient( #040b14,#091627, rgb(47, 85, 87)); 
+     background-image: linear-gradient( #c1c8cb, rgb(227, 246, 248));
+    /*background-image: linear-gradient( #040b14,#091627, rgb(47, 85, 87)); */
     overflow-y: auto;
   }
   #header .profile img {
@@ -63,7 +60,7 @@ body {
     font-size: 18px;
     display: inline-block;
     background: #212431;
-    color: #fff;
+    color: rgb(37, 37, 37);
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -125,7 +122,7 @@ body {
 }
 .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(18, 18, 18);
 }
 .nav-menu a:hover i, .nav-menu .active i, .nav-menu .active:focus i, .nav-menu li:hover > a i {
   color: #149ddd;
@@ -142,7 +139,7 @@ body {
   transition: all 0.4s;
   outline: none !important;
   background-color: #149ddd;
-  color: #fff;
+  color: rgb(59, 58, 58);
   width: 40px;
   height: 40px;
   display: inline-flex;
@@ -586,7 +583,8 @@ section {
 
 
 .hna {
-  margin-bottom: 350px;
+  margin-bottom: 425px;
+  margin-left:20px ;
   background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, rgb(255, 255, 255), transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
@@ -619,7 +617,7 @@ section {
   width: 100%;
   height: 100vh;
   padding: 7rem 0;
-  background: url(./img/b.png) center center / cover no-repeat fixed;
+  background: url(./img/cvportadab.png) center center / cover no-repeat fixed;
 }
 
 .scrollto {
@@ -966,12 +964,7 @@ font-size: 1.3rem;
 }
 
 @media screen and (max-width: 580px) {
-  #hero {
-    width: 100%;
-    height: 100vh;
-    padding: 7rem 0;
-    background: url(./img/b.png) center center / cover no-repeat fixed;
-  }
+
   .typedSpan {
     white-space: normal !important;
   }
@@ -989,4 +982,8 @@ justify-content: center;
   font-size: 1.5rem;
   font-weight: 400;
   text-align: center;
+}
+
+.nav-menu a {
+  color: rgb(22, 23, 23);
 }
